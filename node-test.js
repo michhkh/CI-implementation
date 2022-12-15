@@ -1,7 +1,5 @@
-console.log("This node test is working as intended and fresh and deleted");
+console.log('This node test is working as intended and fresh and deleted');
 
-const attack = (creatureName, damage, isCritical) => {
-  return `${creatureName} dealt ${isCritical ? damage * 2 : damage} damage!`;
-};
+const attack = (creatureName, damage, isCritical) => `${creatureName} dealt ${isCritical ? damage * 2 : damage} damage!`;
 
-console.log(attack("Kylo Ren", 1));
+console.log(attack('Kylo Ren', 1));
